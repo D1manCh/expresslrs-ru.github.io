@@ -13,14 +13,14 @@ graph LR
 
 ## Проверяем версию прошивки передатчика:
 
-Потребуется [Lua скрипт ELRS](https://github.com/ExpressLRS/ExpressLRS/blob/3.x.x-maintenance/src/lua/elrsV3.lua?raw=true) (правой кнопкой, сохранить как *.lua). Скачайте и закиньте на флешку аппы, в папку `/Scripts/Tools`.
-Чтобы открыть скрипт на аппаратуре зажмите кпопку `SYS` и выберите `ExpressLRS`.
+Потребуется [Lua скрипт ELRS](https://github.com/ExpressLRS/ExpressLRS/blob/3.x.x-maintenance/src/lua/elrsV3.lua?raw=true) (правой кнопкой, сохранить как *.lua). Скачиваем и копируем на флешку аппы, в папку `/Scripts/Tools`.
+Чтобы открыть скрипт на аппаратуре зажимаем кпопку `SYS` и выбираем `ExpressLRS`.
 
 <figure markdown>
 ![Lua Script](/../assets/images/lua1.jpg)
 </figure>
 
-Если скрипт не открывается и висит на `Loading...`, проверь что в модели выставлен Internal CRSF для внутреннего передатчика, либо External CRSF для внешнего. [Настройка аппаратуры](/Manuals/Firmware/Transmitters/tx-prep)
+Если скрипт не открывается и висит на `Loading...`, проверяем что в модели выставлен Internal CRSF для внутреннего передатчика, либо External CRSF для внешнего. [Настройка аппаратуры](/Manuals/Firmware/Transmitters/tx-prep)
 
 <figure markdown>
 ![InternalRF BW](/../assets/images/txprep-bw-internalRF.jpg)
@@ -30,7 +30,7 @@ graph LR
 
 ## Если ваш передатчик имеет версию 3.x.x 
 
-Переходим в Lua Script ELRS, выбираем пункт `Wifi Connectivity` в скрипте, а потом нажмите `Enable Wifi`. Нажмите ОК еще раз, чтобы включить WiFI на передатчике. Подключитесь к сети `ExpressLRS TX` с паролем `expresslrs`.
+Переходим в Lua Script ELRS, выбираем пункт `Wifi Connectivity` в скрипте, а потом нажимаем `Enable Wifi`. Нажимаем ОК еще раз, чтобы включить WiFI на передатчике. Подключаемся к сети `ExpressLRS TX` с паролем `expresslrs`.
 
 <figure markdown>
 ![Lua3](/../assets/images/lua/wifi-bw.png)
